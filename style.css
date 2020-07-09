@@ -25,6 +25,7 @@ body {
 
 .card {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 350px;
   margin-top: 50px;
@@ -114,7 +115,7 @@ body {
   height: 60px;
   background: var(--VeryDarkGrayishBlue);
   border-radius: 0 0 10px 10px;
-  bottom: 217px;
+  bottom: 0;
   left: calc(50% - 175px);
   display: flex;
   justify-content: flex-start;
@@ -151,7 +152,7 @@ body {
     width: 720px;
     flex-direction: row;
     height: 250px;
-    position: relative;
+
   }
 
   .image-card {
